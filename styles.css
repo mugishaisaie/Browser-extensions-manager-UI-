@@ -300,7 +300,16 @@ body.dark .slider{
       }
       header{
         gap: 1rem;
+        margin: 0 auto;
+        padding: .2rem;
 
+      }
+      header .logo-light,.logo-dark{
+        width: 100px;
+      }
+
+      header .mode-btn{
+        padding: .2rem .4rem;
       }
 
       .filter{
@@ -308,21 +317,56 @@ body.dark .slider{
         flex-direction: column;
       }
       .filter h2{
-        /* font-size: 16px; */
+        font-size: 16px;
       }
 
       .filtered-results{
         grid-template-columns: repeat(1,1fr);
       }
-      
+
+      .extension-container{
+        padding: .3rem;
+      }
+      .extension-container .extension-card{
+        padding: 0;
+      }
+      .extension-card .extension-logo{
+        padding: .3rem;
+      }
+      .extension-description{
+        font-size: 14px;
+      }
+
+      button{
+        padding: .2rem .4rem;
+        font-size: 14px;
+      }
     }
  @media (min-width:376px) and (max-width:767px){
+  body{
+    padding: 0;
+    margin: 0;
+  }
       .container{
         padding: 1rem;
       }
       header{
         gap: 1rem;
 
+      }
+      .filter h2{
+        font-size: 17px;
+      }
+      .filter-btns button{
+        padding: .3rem .6rem;
+        font-size: 14px;
+      }
+      .extension-results{
+        gap: 0.5rem;
+      }
+      .extension-container{
+        gap: 0.5rem;
+        padding: 0.5rem;
       }
 
       .filter{

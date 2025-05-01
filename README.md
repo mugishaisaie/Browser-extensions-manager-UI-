@@ -7,6 +7,8 @@ This is a solution to the [Browser extensions manager UI challenge on Frontend M
 - [Frontend Mentor - Browser extensions manager UI solution](#frontend-mentor---browser-extensions-manager-ui-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
+    - [✨ Features](#-features)
+    - [Live Site](#live-site)
     - [The challenge](#the-challenge)
     - [Links](#links)
     - [Built with](#built-with)
@@ -17,11 +19,21 @@ This is a solution to the [Browser extensions manager UI challenge on Frontend M
 
 
 ## Overview
-This is the Browser extensions manager UI solution. the goal of this project was to build a responsive and visually appealing user Interface for Browser extensions manager UI using HTML,CSS and JavaScript. The Design includes feature like:
--Fully responsive layout
--Clean and accessible Ui
--Interactive hover and focus state
--Modular and reusable code
+
+This is a solution to the **Browser Extensions Manager UI challenge** on [Frontend Mentor](https://www.frontendmentor.io/). The goal of the challenge was to build a responsive and user-friendly landing page for a fictional browser extension manager. The project includes extension cards, call-to-action buttons, and a clean layout optimized for different screen sizes.
+
+### ✨ Features
+
+- Mobile-first responsive design
+- Extension cards with install buttons
+- Clean navigation and layout
+- Styled with modern CSS (Flexbox, custom properties)
+- Accessible and interactive UI elements
+
+###  Live Site
+
+👉 [View Live Site](https://browser-extensions-manager-ui-solution-two.vercel.app/)
+
 ### The challenge
 
 Users should be able to:
@@ -52,7 +64,7 @@ Users should be able to:
 
 ### What I learned
 
-I have already learnt HTML,CSS and JavaScript before and made some small projects. for sure this project help me to recap and Improve My Css and JavaScript Skills 
+I have already learnt HTML,CSS and JavaScript before and made some small projects. but for sure this project help me to recap and Improve My Css and JavaScript Skills 
 
 
 
