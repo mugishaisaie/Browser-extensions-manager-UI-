@@ -45,7 +45,11 @@ body.dark{
   color: var(--neutral-100);
 }
 
-
+.title-page{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 1rem .5rem;
+}
 
 .container{
     flex: 1; /* Allow container to take up remaining space */
@@ -341,11 +345,17 @@ body.dark .slider{
         padding: .2rem .4rem;
         font-size: 14px;
       }
+      .title-page{
+        font-size: 18px;
+      }
     }
  @media (min-width:376px) and (max-width:767px){
   body{
     padding: 0;
     margin: 0;
+  }
+  .title-page{
+    font-size: 18px;
   }
       .container{
         padding: 1rem;
