@@ -66,7 +66,7 @@ async function fetchData() {
           <div class="extension-btns">
             <button class='delete-btn' id='delete-btn-${name}' onclick="deleteExtension('${name}')">remove</button>
             <label class="toggle-switch">
-              <input type="checkbox" ${isActive? 'checked': ''} id="ext-toggle-${name}" onchange="toggleExtension('${name}')">
+              <input type="checkbox" ${isActive? 'checked': ''} id="ext-toggle-${name}" onchange="toggleExtension('${name}')" aria-label="Toggle ${name}">
               <span class="slider"></span>
             </label> 
           </div>
