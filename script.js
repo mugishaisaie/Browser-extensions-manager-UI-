@@ -1,5 +1,5 @@
 const modeBtn = document.getElementById("mode-btn");
-const darkIcon = `<img src='assets/images/icon-moon.svg'>`;
+const darkIcon = `<img src='assets/images/icon-moon.svg' alt="dark mode icon">`;
 const lightIcon = `<img src='assets/images/icon-sun.svg'>`;
 const filteredResults = document.querySelector(".filtered-results");
 

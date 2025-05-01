@@ -2,45 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
- 
   <title>Frontend Mentor | Browser extensions manager UI</title>
 </head>
 <body>
 
-  <section class="container">
-    <header>
-      <img src="assets/images/logo-light.svg" alt="logo-light-icon" class="logo-light">
-      <img src="assets/images/logo-dark.svg" alt="dark-logo-icon" class="logo-dark">
-      <button class="mode-btn" id="mode-btn" aria-label="toggle dark mode"><img src="assets/images/icon-moon.svg" alt="dark-mode-icon"/></button>
-    </header>
- 
-  <h1 class="title-page">Browser extensions manager</h1>
-   <div class="filter">
-     <h2>Extension List</h2>
-     <aside class="filter-btns">
-    <button>all</button>
-    <button>active</button>
-    <button>inactive</button>
-  </aside>
+  <header>
+    <img src="assets/images/logo-light.svg" alt="logo-light-icon" class="logo-light">
+    <img src="assets/images/logo-dark.svg" alt="dark-logo-icon" class="logo-dark">
+    <button class="mode-btn" id="mode-btn" aria-label="Toggle dark mode">
+      <img src="assets/images/icon-moon.svg" alt="">
+    </button>
+  </header>
 
-</div>
-  <main class="filtered-results"></main>
+  <main class="container">
+    <h1 class="title-page">Browser Extensions Manager</h1>
 
+    <section class="filter">
+      <h2>Extension List</h2>
+      <aside class="filter-btns" aria-label="Filter extensions">
+        <button>all</button>
+        <button>active</button>
+        <button>inactive</button>
+      </aside>
+    </section>
 
+    <section class="filtered-results">
+      <!-- Extension cards go here -->
+    </section>
+  </main>
 
-</section>
-<footer class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-  Coded by <a href="https://mugisha-isaie.vercel.app/">Mugisha Isaie</a>.
-</footer>
-  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://mugisha-isaie.vercel.app/">Mugisha Isaie</a>.
+  </footer>
 
-  
-
-  <!-- script -->
-   <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
